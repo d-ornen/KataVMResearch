@@ -1,0 +1,1 @@
+complementary dword for xoring

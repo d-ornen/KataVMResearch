@@ -1,0 +1,1 @@
+[[(0x7c) handler 0x1b29 VSHLDWORD]]

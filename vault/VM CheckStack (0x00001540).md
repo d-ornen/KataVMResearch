@@ -1,0 +1,1 @@
+actually it must be outgoing edge for each handler, but I already know it is part of each handler, so it won't give me new knowledge if i'll add it, but instead will make graph dirty looking

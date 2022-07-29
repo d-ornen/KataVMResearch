@@ -1,0 +1,2 @@
+[[(0xb1) handler 0x1a71 VSHRSTACK]]
+[[(0xb1) handler 0x1be0]]

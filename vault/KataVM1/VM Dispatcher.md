@@ -1,0 +1,15 @@
+#VMDispatcher
+variable = qword [rdx + 1]
+instruction = al = byte [rdx] - instructions are 1+8 bytes long?
+[[prologue_handler 0x00001a90 VWRITE]]
+[[prologue_handler 0x000013ce VPUSHDWORD]]
+[[(0xaa) prologue_handler 0x00001470 VSUBDWORD]]
+[[(0x4a) prologue_handler 0x00001379 VADDDWORD]]
+[[(0x5d) prologue_handler 0x00001b40 VREAD]]
+[[(0x8b) prologue_handler 0x000014c0 VSTACKXOR]]
+[[(0x7c) prologue_handler 0x1b08 VSHL]]
+[[VM CheckStack (0x00001540)]]
+[[(0xb1) prologue_hanadler 0x1a50]]
+[[(0x4a) prologue_handler 0x1379]]
+[[(0xd5) prologue_handler 0x1810 mnem]]
+[[VM EXIT  0x00001557]]
